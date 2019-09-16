@@ -1,0 +1,493 @@
+-------------------------
+2019/04/01 06:19:39
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:19:39
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:19:39
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/01 06:19:49
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:19:49
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:19:49
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 15,5
+-------------------------
+
+-------------------------
+2019/04/01 06:19:54
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:19:54
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:19:54
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/01 06:20:02
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:20:02
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:20:02
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 5,5
+-------------------------
+
+-------------------------
+2019/04/01 06:20:48
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:20:48
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:20:48
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 3,3
+-------------------------
+
+-------------------------
+2019/04/01 06:20:49
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:20:49
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:20:49
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 3,3
+-------------------------
+
+-------------------------
+2019/04/01 06:20:51
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:20:51
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:20:51
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 12,3
+-------------------------
+
+-------------------------
+2019/04/01 06:20:52
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:20:52
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:20:52
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 15,3
+-------------------------
+
+-------------------------
+2019/04/01 06:20:53
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:20:53
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:20:53
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 12,3
+-------------------------
+
+-------------------------
+2019/04/01 06:20:54
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:20:54
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:20:54
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 9,3
+-------------------------
+
+-------------------------
+2019/04/01 06:20:58
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:20:58
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:20:58
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 3,3
+-------------------------
+
+-------------------------
+2019/04/01 06:21:00
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:21:00
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:21:00
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 6,3
+-------------------------
+
+-------------------------
+2019/04/01 06:21:02
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:21:02
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:21:02
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 3,3
+-------------------------
+
+-------------------------
+2019/04/01 06:21:03
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:21:03
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:21:03
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 9,3
+-------------------------
+
+-------------------------
+2019/04/01 06:21:05
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:21:05
+select count(*) from art
+-------------------------
+
+-------------------------
+2019/04/01 06:21:05
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 15,3
+-------------------------
+
+-------------------------
+2019/04/01 06:22:32
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:22:32
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/01 06:22:32
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 15,3
+-------------------------
+
+-------------------------
+2019/04/01 06:22:32
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:22:32
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/01 06:22:32
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 15,3
+-------------------------
+
+-------------------------
+2019/04/01 06:22:33
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:22:33
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/01 06:22:33
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 15,3
+-------------------------
+
+-------------------------
+2019/04/01 06:22:37
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:22:37
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/01 06:22:37
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 9,3
+-------------------------
+
+-------------------------
+2019/04/01 06:22:51
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:22:51
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/01 06:22:51
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/01 06:23:03
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:23:03
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/01 06:23:03
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 6,3
+-------------------------
+
+-------------------------
+2019/04/01 06:23:04
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:23:04
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/01 06:23:04
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 3,3
+-------------------------
+
+-------------------------
+2019/04/01 06:23:04
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:23:04
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/01 06:23:05
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/01 06:23:06
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:23:06
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/01 06:23:06
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/01 06:23:07
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:23:07
+select count(*) from art where art.cat_id = 22
+-------------------------
+
+-------------------------
+2019/04/01 06:23:07
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 22 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/01 06:23:09
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:23:09
+select count(*) from art where art.cat_id = 19
+-------------------------
+
+-------------------------
+2019/04/01 06:23:09
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 19 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/01 06:23:11
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:23:11
+select count(*) from art where art.cat_id = 19
+-------------------------
+
+-------------------------
+2019/04/01 06:23:11
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 19 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/01 06:23:13
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:23:13
+select count(*) from art where art.cat_id = 23
+-------------------------
+
+-------------------------
+2019/04/01 06:23:13
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 23 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/01 06:27:05
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/01 06:27:05
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/01 06:27:05
+select title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+

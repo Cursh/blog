@@ -1,0 +1,1228 @@
+-------------------------
+2019/04/13 12:06:15
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/13 12:06:15
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/13 12:06:15
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/13 12:09:00
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/13 12:09:00
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/13 12:09:00
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/13 12:09:55
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/13 12:09:55
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/13 12:09:55
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/13 12:20:59
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 12:20:59
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 12:21:03
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 12:21:11
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 12:21:11
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 12:21:53
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 12:21:55
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 12:22:13
+insert into user(createtime,ip) values ('1555158133','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 12:25:03
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 13:19:11
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:19:11
+updata user set password='' where name=''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata user set password='' where name=''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:20:23
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:20:23
+updata user set password='' where name=''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata user set password='' where name=''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:20:36
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:20:36
+updata user set password='' where name=''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata user set password='' where name=''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:21:58
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:21:58
+updata user set password='' where name=''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata user set password='' where name=''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:23:01
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:23:01
+updata user set password='' where name=''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata user set password='' where name=''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:23:35
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:23:35
+updata user set password='' where name=''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata user set password='' where name=''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:24:07
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:24:07
+updata user set password='' where name=''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updata user set password='' where name=''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:24:15
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:24:30
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:24:40
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:25:50
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:25:53
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:25:55
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:26:26
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:26:30
+select  from user where name = '哈哈'
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = '哈哈'' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:26:32
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:26:39
+select  from user where name = ''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from user where name = ''' at line 1
+-------------------------
+
+-------------------------
+2019/04/13 13:27:44
+insert into user(createtime,ip) values ('1555162064','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:28:22
+select count(*) from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 13:28:24
+insert into user(createtime,ip) values ('1555162104','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:28:29
+select count(*) from user where name = '哈哈呀'
+-------------------------
+
+-------------------------
+2019/04/13 13:28:29
+insert into user(name,password,email,createtime,ip) values ('哈哈呀','1234','sss','1555162109','0')
+-------------------------
+
+-------------------------
+2019/04/13 13:28:38
+insert into user(createtime,ip) values ('1555162118','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:28:57
+select count(*) from user where name = '哈哈呀'
+-------------------------
+
+-------------------------
+2019/04/13 13:28:58
+insert into user(createtime,ip) values ('1555162138','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:29:02
+select count(*) from user where name = '哈哈呀信息'
+-------------------------
+
+-------------------------
+2019/04/13 13:29:02
+insert into user(name,password,email,createtime,ip) values ('哈哈呀信息','1234','sss','1555162142','0')
+-------------------------
+
+-------------------------
+2019/04/13 13:31:08
+insert into user(createtime,ip) values ('1555162268','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:31:15
+select count(*) from user where name = '哈哈呀信息搜索'
+-------------------------
+
+-------------------------
+2019/04/13 13:31:15
+insert into user(name,password,email,createtime,ip) values ('哈哈呀信息搜索','1234','sss搜索','1555162275','0')
+-------------------------
+
+-------------------------
+2019/04/13 13:32:40
+insert into user(createtime,ip) values ('1555162360','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:32:50
+select count(*) from user where name = '哈哈呀信息搜索搜索'
+-------------------------
+
+-------------------------
+2019/04/13 13:32:50
+insert into user(name,password,email,createtime,ip) values ('哈哈呀信息搜索搜索','1234','sss搜索','1555162370','0')
+-------------------------
+
+-------------------------
+2019/04/13 13:33:03
+insert into user(createtime,ip) values ('1555162383','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:33:06
+select count(*) from user where name = '哈哈呀信息搜'
+-------------------------
+
+-------------------------
+2019/04/13 13:33:06
+insert into user(name,password,email,createtime,ip) values ('哈哈呀信息搜','1234','sss搜索','1555162386','0')
+-------------------------
+
+-------------------------
+2019/04/13 13:33:07
+insert into user(createtime,ip) values ('1555162387','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:33:58
+insert into user(createtime,ip) values ('1555162438','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:33:59
+insert into user(createtime,ip) values ('1555162439','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:33:59
+insert into user(createtime,ip) values ('1555162439','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:34:30
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 13:40:26
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 13:40:37
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 13:46:33
+select count(*) from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 13:46:35
+insert into user(createtime,ip) values ('1555163195','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:51:05
+insert into user(createtime,ip) values ('1555163465','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:51:08
+insert into user(createtime,ip) values ('1555163468','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:51:14
+insert into user(createtime,ip) values ('1555163474','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:51:15
+insert into user(createtime,ip) values ('1555163475','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:51:15
+insert into user(createtime,ip) values ('1555163475','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:51:15
+insert into user(createtime,ip) values ('1555163475','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:51:15
+insert into user(createtime,ip) values ('1555163475','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:51:41
+insert into user(createtime,ip) values ('1555163501','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:51:41
+insert into user(createtime,ip) values ('1555163501','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:52:02
+insert into user(createtime,ip) values ('1555163522','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 13:53:02
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 13:53:02
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 13:53:22
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 13:58:56
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:08:05
+select count(*) from user where name='哈哈' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:09:01
+select count(*) from user where name='哈哈' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:09:15
+select count(*) from user where name='哈哈' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:10:13
+select count(*) from user where name='zs' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:10:22
+select count(*) from user where name='zs' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:10:35
+select count(*) from user where name='哈哈' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:11:54
+select count(*) from user where name='wywang' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:12:36
+select count(*) from user where name='wywang' and password='12345'
+-------------------------
+
+-------------------------
+2019/04/13 14:12:48
+select count(*) from user where name='哈哈' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:14:11
+select count(*) from user where name='wywang' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:14:15
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 14:14:16
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:18:10
+insert into user(createtime,ip,salt) values ('1555165090','0','d4b7c284882ca9e208bb65e8abd5f4c8')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 14:18:41
+insert into user(createtime,ip,salt) values ('1555165121','0','d4b7c284882ca9e208bb65e8abd5f4c8')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 14:18:42
+insert into user(createtime,ip,salt) values ('1555165122','0','d4b7c284882ca9e208bb65e8abd5f4c8')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/13 14:19:04
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 14:19:04
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 14:19:05
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 14:19:05
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 14:19:05
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 14:19:05
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 14:19:06
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 14:19:06
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 14:19:10
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/13 14:19:13
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 14:20:16
+select count(*) from user where name = '哈哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:20:16
+insert into user(name,password,email,createtime,ip,salt) values ('哈哈哈','1234','22','1555165216','0','86134b73ad2bce36ad27910cab598597')
+-------------------------
+
+-------------------------
+2019/04/13 14:21:09
+select * from user where name = '哈哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:26:34
+select * from user where name = '哈哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:26:52
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:26:58
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:26:58
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:27:02
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:27:02
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:27:07
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:27:07
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:27:13
+select * from user where name = '哈哈5555555555553'
+-------------------------
+
+-------------------------
+2019/04/13 14:27:23
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:27:23
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:27:30
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:27:30
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:28:41
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:28:41
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:28:59
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:29:09
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:34:14
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:34:26
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:34:26
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:34:33
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:34:33
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:34:39
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:34:39
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:34:44
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:34:47
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:34:57
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:38:30
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:39:46
+select count(*) from user where name='哈哈' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:39:46
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:39:50
+select count(*) from user where name='哈哈' and password='1234存储'
+-------------------------
+
+-------------------------
+2019/04/13 14:39:59
+select count(*) from user where name='哈哈' and password='1234存储'
+-------------------------
+
+-------------------------
+2019/04/13 14:40:08
+select count(*) from user where name='哈哈' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:40:08
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 14:40:24
+select count(*) from user where name='wywang' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:40:46
+select count(*) from user where name='wywang' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:40:50
+select count(*) from user where name='wywang' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:41:13
+select count(*) from user where name='wywang' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:42:05
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/13 14:42:05
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id=''
+-------------------------
+
+-------------------------
+2019/04/13 14:42:05
+select * from comment where art_id=''
+-------------------------
+
+-------------------------
+2019/04/13 14:42:29
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 14:42:29
+insert into user(name,password,email,createtime,ip,salt) values ('wywang','123456','15628760@qq.com','1555166549','0','dc6ce8e8d7e60d3ef942591b70514541')
+-------------------------
+
+-------------------------
+2019/04/13 14:42:33
+select count(*) from user where name='wywang' and password='123456'
+-------------------------
+
+-------------------------
+2019/04/13 14:43:24
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 14:43:24
+insert into user(name,password,email,createtime,ip) values ('wywang','123456','15628760@qq.com','1555166604','0')
+-------------------------
+
+-------------------------
+2019/04/13 14:43:30
+select count(*) from user where name='wywang' and password='123456'
+-------------------------
+
+-------------------------
+2019/04/13 14:43:58
+select count(*) from user where name='zs' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:44:26
+select count(*) from user where name='哈哈' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:44:36
+select count(*) from user where name='哈哈' and password='1234'
+-------------------------
+
+-------------------------
+2019/04/13 14:44:46
+select count(*) from user where name = '哈哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 14:45:52
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 14:45:57
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 14:46:24
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 14:47:15
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 14:47:15
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 15:17:29
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/13 15:17:29
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/13 15:17:29
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/13 15:18:14
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 15:18:14
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 15:18:19
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 15:18:19
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 15:18:33
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 15:18:33
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 15:18:48
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 15:18:48
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 15:18:54
+select * from user where name = 'wywang88'
+-------------------------
+
+-------------------------
+2019/04/13 15:19:21
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 15:19:21
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 15:19:39
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 15:19:39
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 15:19:43
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 15:19:43
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/13 15:55:16
+select count(*) from user where name = 'xinxin'
+-------------------------
+
+-------------------------
+2019/04/13 15:55:16
+insert into user(name,password,email,rpassword,createtime,ip) values ('xinxin','d41d8cd98f00b204e9800998ecf8427e','','d41d8cd98f00b204e9800998ecf8427e','1555170916','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 15:55:46
+select count(*) from user where name = 'xinxin'
+-------------------------
+
+-------------------------
+2019/04/13 15:55:46
+insert into user(name,password,email,rpassword,createtime,ip) values ('xinxin','d41d8cd98f00b204e9800998ecf8427e','','d41d8cd98f00b204e9800998ecf8427e','1555170946','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 15:55:53
+select count(*) from user where name = 'xinxin'
+-------------------------
+
+-------------------------
+2019/04/13 15:55:53
+insert into user(name,password,email,rpassword,createtime,ip) values ('xinxin','81dc9bdb52d04dc20036dbd8313ed055','','d41d8cd98f00b204e9800998ecf8427e','1555170953','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 15:56:33
+select count(*) from user where name = 'xinxin'
+-------------------------
+
+-------------------------
+2019/04/13 15:56:33
+insert into user(name,password,email,rpassword,createtime,ip) values ('xinxin','81dc9bdb52d04dc20036dbd8313ed055','','d41d8cd98f00b204e9800998ecf8427e','1555170993','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 15:59:38
+select count(*) from user where name = 'xinxin'
+-------------------------
+
+-------------------------
+2019/04/13 15:59:38
+insert into user(name,password,email,rpassword,createtime,ip) values ('xinxin','81dc9bdb52d04dc20036dbd8313ed055','','d41d8cd98f00b204e9800998ecf8427e','1555171178','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 15:59:40
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/13 15:59:40
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 15:59:48
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/13 15:59:48
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/13 16:00:35
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 16:08:44
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 16:08:50
+select count(*) from user where name = 'wywang搜索'
+-------------------------
+
+-------------------------
+2019/04/13 16:08:50
+insert into user(name,password,email,rpassword,createtime,ip) values ('wywang搜索','d41d8cd98f00b204e9800998ecf8427e','','d41d8cd98f00b204e9800998ecf8427e','1555171730','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 16:18:17
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/13 16:18:22
+select count(*) from user where name = 'wywang搜索'
+-------------------------
+
+-------------------------
+2019/04/13 16:18:22
+insert into user(name,password,email,rpassword,createtime,ip) values ('wywang搜索','81dc9bdb52d04dc20036dbd8313ed055','','d41d8cd98f00b204e9800998ecf8427e','1555172301','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 16:31:51
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/13 16:31:51
+insert into user(name,password,email,rpassword,createtime,ip) values ('','d41d8cd98f00b204e9800998ecf8427e','','d41d8cd98f00b204e9800998ecf8427e','1555173111','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 16:34:23
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/13 16:34:23
+insert into user(name,password,email,rpassword,createtime,ip) values ('','d41d8cd98f00b204e9800998ecf8427e','','d41d8cd98f00b204e9800998ecf8427e','1555173263','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 16:37:18
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/13 16:37:18
+insert into user(name,password,email,rpassword,createtime,ip) values ('','d41d8cd98f00b204e9800998ecf8427e','','d41d8cd98f00b204e9800998ecf8427e','1555173438','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 16:37:27
+select count(*) from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/13 16:37:37
+select count(*) from user where name = '哈哈擦擦擦'
+-------------------------
+
+-------------------------
+2019/04/13 16:37:37
+insert into user(name,password,email,rpassword,createtime,ip) values ('哈哈擦擦擦','81dc9bdb52d04dc20036dbd8313ed055','15628760@qq.com','81dc9bdb52d04dc20036dbd8313ed055','1555173457','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+
+-------------------------
+2019/04/13 16:39:08
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/13 16:39:08
+insert into user(name,password,email,rpassword,createtime,ip) values ('','81dc9bdb52d04dc20036dbd8313ed055','15628760@qq.com','81dc9bdb52d04dc20036dbd8313ed055','1555173548','0')
+Unknown column 'rpassword' in 'field list'
+-------------------------
+

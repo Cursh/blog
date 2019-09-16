@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人博客</title>
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<link href="css/m.css" rel="stylesheet">
+	</head>
+	<body>
+		<header class="header-navigation" id="header">
+		  <nav><div class="logo"><a href="index.php">个人博客</a></div>
+		    <h2 id="mnavh"><span class="navicon"></span></h2>
+		   <ul id="starlist">
+		      <li><a href="index.php">网站首页</a></li>
+		      <li><a href="pic.php">我的相册</a></li>
+		      <li><a href="list.php">我的日记</a></li>
+		      <li><a href="game.php">我的游戏</a></li>
+		    </ul>
+		</nav>
+		</header>
+		<article>
+		  <aside class="l_box">
+		      <div class="about_me">
+		        <h2>关于我</h2>
+		        <ul>
+		          <i><img src="images/4.jpg"></i>
+		          <p><b>六元的小虎牙</b>，我的爱豆叫刘昊然</p>
+		        </ul>
+		      </div>
+		      <div class="wdxc">
+		        <h2>我的相册</h2>
+		        <ul>
+		          <li><a href="/"><img src="images/7.jpg"></a></li>
+		          <li><a href="/"><img src="images/8.jpg"></a></li>
+		          <li><a href="/"><img src="images/9.jpg"></a></li>
+		          <li><a href="/"><img src="images/10.jpg"></a></li>
+		          <li><a href="/"><img src="images/11.jpg"></a></li>
+		          <li><a href="/"><img src="images/12.jpg"></a></li>
+		        </ul>
+		      </div>
+		      <div class="search">
+		        <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+		          <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字词" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字词'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字词'}" type="text">
+		          <input name="show" value="title" type="hidden">
+		          <input name="tempid" value="1" type="hidden">
+		          <input name="tbname" value="news" type="hidden">
+		          <input name="Submit" class="input_submit" value="搜索" type="submit">
+		        </form>
+		      </div>
+		     <div class="fenlei">
+		        <h2>文章分类</h2>
+		        <ul>
+		          <?php foreach($cats as $k=>$v){?>
+		          <li><a href="index.php?cat_id=<?php echo $v['cat_id'];?>"><?php echo $v['catname'];?></a></li>
+		          <?php }?>
+		        </ul>
+		      </div>
+		      <div class="links">
+		        <h2>友情链接</h2>
+		       <ul>
+		          <a href="https://www.zhihu.com/topic/20090895/intro">知乎简介</a> <a href="https://weibo.com/u/2870450862">刘昊然微博</a>
+		        </ul>
+		      </div>
+		  </aside>
+		  <main>
+		  	<div class="art_content">
+		        <h3 class="title"><?php echo $art['title'];?></h3>
+		        <div class="bloginfo">
+		          <ul>
+		            <li class="author">作者：六元的小虎牙<a href="/"><?php echo $art['nick'];?></a></li>
+		            <li class="catlink">分类：<a href="/"><?php echo $art['catname'];?></a></li>
+		            <li class="time">时间：<?php echo date('Y年m月d日',$art['pubtime']);?></li>
+		          </ul>
+		        </div>
+		        <div class="content"> <?php echo $art['content'];?><br>
+		      		<img alt="" src="<?php echo $art['suo'];?>"><br>
+		        </div>
+		    </div>
+		    <div class="art_comment">
+		        <h2>文章评论</h2>
+		       	<div class="gbko">
+		       	   <?php if($comment != null){?>
+		       	   <?php foreach($comment as $k=>$v){?>
+		      	   <div class="fb">
+		            <ul>
+		              <p class="fbtime"><span class="time"><?php echo date('Y年m月d日 H时i分',$v['pubtime']);?></span>昵称：<?php echo $v['nick'];?></p>
+		              <p class="fbinfo">评论：<?php echo $v['content'];?></p>
+		            </ul>
+		           </div>
+		           <?php }?>
+		        </div>
+		        <div id="respond" class="comment_respond">
+		            <h3>来说两句吧...</h3>
+		            <?php if( isset($res) && !$res){?>
+		            <h3 style="color: red;">评论添加失败</h3>
+		            <?php }?>
+		            <?php }?>
+		            <form action="" method="post">
+		            	<p>
+		            		<p class="yname"><span>用户名:</span>
+		            		<input placeholder="your name" name="nick" type="text" value="" size="30"/>
+		            	</p>
+		            	<p>
+		            		<p class="yemail"><span>邮箱:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+		            		<input placeholder="Email" name="email" type="text" value="" size="30" />
+		            	</p>
+		           		<br />
+		            		<input name="nomember" type="hidden" id="nomember" value="1" checked="checked">
+		               		<textarea name="content" rows="6" id="saytext"></textarea>
+		                	<input name="imageField" type="submit" value="提交">
+		               
+		           	</form>
+		        </div>
+		    </div>
+		
+		  </main>
+		</article>
+		<footer>
+		  <p>Design by <a href="http://blog.com" target="_blank">六元的小虎牙个人博客</a> <a href="/">Copyright &copy; 2019 · HUAXIA · UNIVERSITY · WYWANG</a></p>
+		</footer>
+		<a href="#" class="cd-top">Top</a>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人博客</title>
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<link href="css/m.css" rel="stylesheet">
+		
+	</head>
+	<body>
+		<header class="header-navigation" id="header">
+		  <nav><div class="logo"><a href="index.php">个人博客</a></div>
+		    <h2 id="mnavh"><span class="navicon"></span></h2>
+		   <ul id="starlist">
+		      <li><a href="index.php">网站首页</a></li>
+		      <li><a href="pic.php">我的相册</a></li>
+		      <li><a href="list.php">我的日记</a></li>
+		      <li><a href="game.php">我的游戏</a></li>
+		    </ul>
+		</nav>
+		</header>
+
+	<article>
+		<div class="picbox">
+			<?php foreach($pics as $k=>$v){?>
+		    <ul>
+		      <li data-scroll-reveal="enter bottom over 1s" >
+		      	<a href="pic.php?pic_id=<?php echo $v['pic_id'];?>"><i><img src="<?php echo $v['suo'];?>"></i></a>
+		        <div class="picinfo">
+		          <h3><?php echo $v['pic_name']; ?> </h3>
+		          <span><?php echo $v['pic_int'];?></span>
+		        </div>
+		      </li>
+		    </ul>
+		  	<?php }?> 
+		</div>
+		<div class="pagelist">
+		 	<a class="allpage">
+            Pages:&nbsp;&nbsp;
+            <?php foreach($page as $k=>$v){?>
+            <?php if($curr == $k){
+             echo $k;} else {?>
+           	<a href="pic.php?<?php echo $v;?>"><?php echo $k;?></a>
+            <?php }?>
+            <?php }?>
+            </a>
+            </div>
+		</article>
+		<footer>
+		  <p>Design by <a href="http://blog.com" target="_blank">六元的小虎牙个人博客</a> <a href="/">Copyright &copy; 2019 · HUAXIA · UNIVERSITY · WYWANG</a></p>
+		</footer>
+		<a href="#" class="cd-top">Top</a>
+		
+	</body>
+</html>

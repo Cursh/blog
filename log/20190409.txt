@@ -1,0 +1,3043 @@
+-------------------------
+2019/04/09 03:17:52
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 03:17:52
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 03:17:53
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 03:18:25
+select count(*) from user where name='admin'or 1 #' and password='1'
+-------------------------
+
+-------------------------
+2019/04/09 03:18:25
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 03:18:35
+select count(*) from user where name='wyang' and password='1'
+-------------------------
+
+-------------------------
+2019/04/09 04:14:31
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:14:31
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id=''
+-------------------------
+
+-------------------------
+2019/04/09 04:14:31
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:14:31
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 04:14:31
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 04:14:39
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:14:39
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:14:39
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:14:50
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:14:50
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:14:50
+insert into comment(nick,email,content,art_id,pubtime,ip) values ('ww','wwwd','dddddd','45','1554783290','0')
+-------------------------
+
+-------------------------
+2019/04/09 04:14:50
+update art set comm=comm+1 where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:14:50
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:14:50
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:14:50
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:14:50
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:18:47
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:18:47
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:18:47
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:18:48
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:18:48
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:18:48
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:18:53
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:18:53
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:18:53
+insert into comment(nick,email,content,art_id,pubtime,ip) values ('sss','sss','ssss','45','1554783533','0')
+-------------------------
+
+-------------------------
+2019/04/09 04:18:53
+update art set comm=comm+1 where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:18:53
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:18:53
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:18:53
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:18:53
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 04:25:33
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:25:33
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id=''
+-------------------------
+
+-------------------------
+2019/04/09 04:25:33
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:25:33
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 04:25:33
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 04:25:36
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:25:36
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='43'
+-------------------------
+
+-------------------------
+2019/04/09 04:25:36
+select * from comment where art_id='43'
+-------------------------
+
+-------------------------
+2019/04/09 04:25:54
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:25:54
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='43 union all'
+-------------------------
+
+-------------------------
+2019/04/09 04:25:54
+select * from comment where art_id='43 union all'
+-------------------------
+
+-------------------------
+2019/04/09 04:47:07
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:47:07
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='43'
+-------------------------
+
+-------------------------
+2019/04/09 04:47:07
+select * from comment where art_id='43'
+-------------------------
+
+-------------------------
+2019/04/09 04:47:12
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:47:12
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id=''
+-------------------------
+
+-------------------------
+2019/04/09 04:47:12
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:47:12
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 04:47:12
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 04:48:16
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:48:16
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 04:48:16
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 04:55:06
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:55:13
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:55:16
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:55:16
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:55:16
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:56:12
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:56:15
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:56:16
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:56:16
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:56:16
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:56:24
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 04:56:24
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 04:56:24
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 04:56:30
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:58:04
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:58:05
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:58:05
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:58:05
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:58:06
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:59:00
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:59:04
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:59:04
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:59:04
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:59:04
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 04:59:19
+select * from user where name = 'dd'
+-------------------------
+
+-------------------------
+2019/04/09 04:59:45
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 05:00:23
+select * from user where name = 'dd'
+-------------------------
+
+-------------------------
+2019/04/09 05:00:27
+select * from user where name = 'wyw'
+-------------------------
+
+-------------------------
+2019/04/09 05:00:38
+select * from user where name = 'admin'or 1 #'
+-------------------------
+
+-------------------------
+2019/04/09 05:01:21
+select * from user where name = 'admin'or 1 #'
+-------------------------
+
+-------------------------
+2019/04/09 05:01:31
+select * from user where name = '44'
+-------------------------
+
+-------------------------
+2019/04/09 05:23:29
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/09 05:23:45
+select * from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/09 05:23:51
+select * from user where name = '哈哈555'
+-------------------------
+
+-------------------------
+2019/04/09 05:24:00
+select * from user where name = '哈哈555'
+-------------------------
+
+-------------------------
+2019/04/09 05:24:05
+select * from user where name = '哈哈555'
+-------------------------
+
+-------------------------
+2019/04/09 05:24:15
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 05:24:19
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 05:24:59
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 05:25:00
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 05:25:00
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 05:25:00
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 05:26:26
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 05:26:27
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 05:26:27
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 05:29:45
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 05:29:53
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 06:44:30
+select * from user where name = '456456'
+-------------------------
+
+-------------------------
+2019/04/09 06:44:35
+select * from user where name = '456456'
+-------------------------
+
+-------------------------
+2019/04/09 06:44:48
+select * from user where name = 'oooo'
+-------------------------
+
+-------------------------
+2019/04/09 06:57:50
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 06:57:50
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 06:57:50
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 06:59:10
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 06:59:10
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 06:59:10
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 06:59:11
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 06:59:11
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 06:59:11
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 06:59:11
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 06:59:11
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 06:59:11
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 06:59:17
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 06:59:17
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id=''
+-------------------------
+
+-------------------------
+2019/04/09 06:59:17
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 06:59:17
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 06:59:17
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 06:59:21
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 06:59:21
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 06:59:21
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 06:59:55
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 06:59:55
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 06:59:55
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 06:59:56
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 06:59:56
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 06:59:56
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 06:59:57
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 06:59:57
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/09 06:59:57
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 07:00:00
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:00:00
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/09 07:00:00
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 07:00:01
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:00:01
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/09 07:00:01
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 07:00:03
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:00:03
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/09 07:00:03
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 07:00:42
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:00:42
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id=''
+-------------------------
+
+-------------------------
+2019/04/09 07:00:42
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:00:42
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 07:00:42
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 07:00:57
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:01:12
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:10:34
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:10:34
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id=''
+-------------------------
+
+-------------------------
+2019/04/09 07:10:34
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:10:34
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 07:10:34
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 07:10:55
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:11:02
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:11:18
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:13:13
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:13:31
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:13:32
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:13:32
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:13:32
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:14:23
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:14:31
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:17:22
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:17:22
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 07:17:22
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 07:18:13
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:22:07
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:22:07
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:24:16
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:24:24
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:25:54
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:29:34
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:29:42
+select * from user where name = 'sss'
+-------------------------
+
+-------------------------
+2019/04/09 07:31:24
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:33:55
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:33:55
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 07:33:55
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 07:34:17
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:37:48
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:37:49
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:38:06
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:38:08
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:38:08
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:38:09
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:38:18
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:38:51
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:38:52
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:38:58
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:41:25
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:41:41
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:46:52
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:46:53
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:46:59
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:50:53
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:54:42
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:54:42
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 07:54:42
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 07:58:44
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 07:58:44
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 07:58:44
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 07:58:55
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 07:58:55
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 07:59:17
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 08:02:20
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:02:22
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 08:02:23
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:02:25
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:02:27
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:09:58
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:09:58
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id=''
+-------------------------
+
+-------------------------
+2019/04/09 08:09:58
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:09:58
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 08:09:58
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 08:10:01
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:10:01
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 08:10:01
+select * from comment where art_id='45'
+-------------------------
+
+-------------------------
+2019/04/09 08:10:19
+select comment.*, title from comment left join art on comment.art_id=art.art_id
+-------------------------
+
+-------------------------
+2019/04/09 08:11:02
+select art_id from comment where comment_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 08:11:03
+update art set comm=(comm-1) where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 08:11:03
+delete from comment where comment_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 08:11:12
+select art_id from comment where comment_id=1
+-------------------------
+
+-------------------------
+2019/04/09 08:11:12
+update art set comm=(comm-1) where art_id=20
+BIGINT UNSIGNED value is out of range in '(`blog`.`art`.`comm` - 1)'
+-------------------------
+
+-------------------------
+2019/04/09 08:11:12
+delete from comment where comment_id=1
+-------------------------
+
+-------------------------
+2019/04/09 08:11:12
+select comment.*, title from comment left join art on comment.art_id=art.art_id
+-------------------------
+
+-------------------------
+2019/04/09 08:12:25
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:39:05
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 08:39:05
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 08:39:16
+select count(*) from art where art_id='13'
+-------------------------
+
+-------------------------
+2019/04/09 08:39:16
+select * from art where art_id = 13
+-------------------------
+
+-------------------------
+2019/04/09 08:39:16
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:39:22
+select count(*) from art where art_id='19'
+-------------------------
+
+-------------------------
+2019/04/09 08:39:22
+select * from art where art_id = 19
+-------------------------
+
+-------------------------
+2019/04/09 08:39:22
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:39:24
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 08:39:25
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:39:49
+select count(*) from cat where cat_id='22'
+-------------------------
+
+-------------------------
+2019/04/09 08:40:14
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:40:16
+select count(*) from cat where cat_id='22'
+-------------------------
+
+-------------------------
+2019/04/09 08:40:16
+insert into art(title,cat_id,content,pubtime,pic,suo) values ('是是是','22','44444','1554799216','/upload/2019/0409/xrQYWN.jpg','/upload/2019/0409/3hGPvZ.jpg')
+-------------------------
+
+-------------------------
+2019/04/09 08:48:49
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:48:52
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 08:49:04
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 08:59:16
+select * from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 08:59:16
+select art_id,title,pubtime,catname,comm 
+ from art left join cat 
+ on art.cat_id=cat.cat_id
+-------------------------
+
+-------------------------
+2019/04/09 11:51:34
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/09 11:51:34
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/09 11:51:35
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/09 11:51:35
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/09 11:51:35
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/09 11:52:33
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/09 11:52:34
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/09 11:52:34
+insert into user() values ('')
+Column count doesn't match value count at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:38:36
+insert into user(name,password,email,createtime,ip) values('','','','1554813516' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:40:01
+insert into user(name,password,email,createtime,ip) values('','','','1554813601' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:40:30
+insert into user(name,password,email,createtime,ip) values('','','','1554813630' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:41:18
+insert into user(name,password,email,createtime,ip) values('','','','1554813678' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:41:19
+insert into user(name,password,email,createtime,ip) values('','','','1554813679' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:41:19
+insert into user(name,password,email,createtime,ip) values('','','','1554813679' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:41:28
+insert into user(name,password,email,createtime,ip) values('哈哈','1234','15628760@qq.com','1554813688' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:45:31
+insert into user(name,password,email,createtime,ip) values('哈哈','1234','15628760@qq.com','1554813931' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:45:31
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 12:45:48
+insert into user(name,password,email,createtime,ip) values('','','','1554813948' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:45:48
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 12:46:26
+insert into user(name,password,email,createtime,ip) values('','','','1554813986' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:46:26
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 12:46:39
+insert into user(name,password,email,createtime,ip) values('','','','1554813999' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:49:11
+insert into user(name,password,email,createtime,ip) values('','','','1554814151' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:49:11
+insert into user(name,password,email,createtime,ip) values('','','','1554814151' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:49:11
+insert into user(name,password,email,createtime,ip) values('','','','1554814151' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:57:20
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 12:57:20
+insert into user(name,password,email,createtime,ip) values('','','','1554814640' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 12:57:21
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 12:57:21
+insert into user(name,password,email,createtime,ip) values('','','','1554814641' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 13:01:48
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:01:48
+insert into user(name,password,email,createtime,ip) values('','','','1554814908' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 13:04:26
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:04:26
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id=''
+-------------------------
+
+-------------------------
+2019/04/09 13:04:26
+select * from comment where art_id=''
+-------------------------
+
+-------------------------
+2019/04/09 13:04:26
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:04:26
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 13:04:26
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 13:04:29
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:04:29
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='46'
+-------------------------
+
+-------------------------
+2019/04/09 13:04:29
+select * from comment where art_id='46'
+-------------------------
+
+-------------------------
+2019/04/09 13:04:38
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:04:38
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='46'
+-------------------------
+
+-------------------------
+2019/04/09 13:04:38
+select * from comment where art_id='46'
+-------------------------
+
+-------------------------
+2019/04/09 13:04:38
+insert into comment(nick,email,content,art_id,pubtime,ip) values ('zs','sss','ddd','46','1554815078','0')
+-------------------------
+
+-------------------------
+2019/04/09 13:04:38
+update art set comm=comm+1 where art_id='46'
+-------------------------
+
+-------------------------
+2019/04/09 13:04:38
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:04:38
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='46'
+-------------------------
+
+-------------------------
+2019/04/09 13:04:38
+select * from comment where art_id='46'
+-------------------------
+
+-------------------------
+2019/04/09 13:05:12
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:05:12
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='46'
+-------------------------
+
+-------------------------
+2019/04/09 13:05:12
+select * from comment where art_id='46'
+-------------------------
+
+-------------------------
+2019/04/09 13:07:02
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:07:02
+insert into user(name,password,email,createtime,ip) values('','','','1554815222' ,'::1' )
+Incorrect integer value: '::1' for column 'ip' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 13:12:43
+insert into user(user_id,createtime,ip) values ('','1554815563','0')
+Incorrect integer value: '' for column 'user_id' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 13:12:43
+insert into user(user_id,createtime,ip) values ('','1554815563','0')
+Incorrect integer value: '' for column 'user_id' at row 1
+-------------------------
+
+-------------------------
+2019/04/09 13:13:02
+insert into user(createtime,ip) values ('1554815582','0')
+-------------------------
+
+-------------------------
+2019/04/09 13:13:03
+insert into user(createtime,ip) values ('1554815583','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:13:03
+insert into user(createtime,ip) values ('1554815583','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:13:10
+insert into user(name,password,email,createtime,ip) values ('哈哈','1234','15628760@qq.com','1554815590','0')
+-------------------------
+
+-------------------------
+2019/04/09 13:15:50
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:15:55
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:15:56
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:15:56
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:16:11
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:16:12
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:16:12
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:16:13
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:16:13
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:16:13
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:16:13
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:16:13
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:07
+insert into user(createtime,ip) values ('1554815827','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:07
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:07
+insert into user(createtime,ip) values ('1554815827','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:07
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:08
+insert into user(createtime,ip) values ('1554815828','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:08
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:08
+insert into user(createtime,ip) values ('1554815828','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:08
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:08
+insert into user(createtime,ip) values ('1554815828','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:08
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:08
+insert into user(createtime,ip) values ('1554815828','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:08
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:44
+insert into user(createtime,ip) values ('1554815864','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:44
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:45
+insert into user(createtime,ip) values ('1554815865','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:45
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:45
+insert into user(createtime,ip) values ('1554815865','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:45
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:45
+insert into user(createtime,ip) values ('1554815865','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:45
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:46
+insert into user(createtime,ip) values ('1554815866','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:46
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:46
+insert into user(createtime,ip) values ('1554815866','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:46
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:17:50
+insert into user(createtime,ip) values ('1554815870','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:50
+insert into user(createtime,ip) values ('1554815870','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:51
+insert into user(createtime,ip) values ('1554815871','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:17:51
+insert into user(createtime,ip) values ('1554815871','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:19:42
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:19:42
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:19:43
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:20:20
+insert into user(createtime,ip) values ('1554816020','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:20:21
+insert into user(createtime,ip) values ('1554816021','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:21:36
+insert into user(createtime,ip) values ('1554816096','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:21:37
+insert into user(createtime,ip) values ('1554816097','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:21:50
+insert into user(createtime,ip) values ('1554816110','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:21:51
+insert into user(createtime,ip) values ('1554816111','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:22:16
+insert into user(name,password,email,createtime,ip) values ('zs','1234','sss','1554816136','0')
+-------------------------
+
+-------------------------
+2019/04/09 13:22:16
+insert into user(createtime,ip) values ('1554816136','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:23:18
+insert into user(name,password,email,createtime,ip) values ('ls','888','15628760@qq.com','1554816198','0')
+-------------------------
+
+-------------------------
+2019/04/09 13:23:57
+insert into user(createtime,ip) values ('1554816237','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:24:00
+insert into user(name,password,email,createtime,ip) values ('ls','888','15628760@qq.com','1554816240','0')
+Duplicate entry 'ls' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:24:04
+insert into user(createtime,ip) values ('1554816244','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:24:10
+insert into user(name,password,email,createtime,ip) values ('lsxx','888','15628760@qq.com','1554816250','0')
+-------------------------
+
+-------------------------
+2019/04/09 13:24:37
+insert into user(createtime,ip) values ('1554816277','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:25:33
+insert into user(name,password,email,createtime,ip) values ('lsxx5','888','15628760@qq.com','1554816333','0')
+-------------------------
+
+-------------------------
+2019/04/09 13:26:01
+insert into user(createtime,ip) values ('1554816361','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:26:38
+insert into user(createtime,ip) values ('1554816398','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:26:39
+insert into user(createtime,ip) values ('1554816399','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:26:39
+insert into user(createtime,ip) values ('1554816399','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:27:07
+insert into user(name,password,email,createtime,ip) values ('wy','123456','sssss','1554816427','0')
+-------------------------
+
+-------------------------
+2019/04/09 13:27:35
+insert into user(createtime,ip) values ('1554816455','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:27:56
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:27:56
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/09 13:27:56
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/09 13:28:26
+insert into user(createtime,ip) values ('1554816506','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:28:37
+insert into user(createtime,ip) values ('1554816517','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:28:51
+insert into user(createtime,ip) values ('1554816531','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:29:05
+insert into user(createtime,ip) values ('1554816545','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:29:54
+insert into user(createtime,ip) values ('1554816594','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:31:09
+insert into user(createtime,ip) values ('1554816669','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:31:18
+insert into user(createtime,ip) values ('1554816678','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:31:46
+insert into user(createtime,ip) values ('1554816706','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:31:47
+insert into user(createtime,ip) values ('1554816707','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:33:12
+insert into user(createtime,ip) values ('1554816792','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:34:00
+insert into user(createtime,ip) values ('1554816840','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:40
+insert into user(createtime,ip) values ('1554817060','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:40
+insert into user(createtime,ip) values ('1554817060','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:41
+insert into user(createtime,ip) values ('1554817061','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:41
+insert into user(createtime,ip) values ('1554817061','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:41
+insert into user(createtime,ip) values ('1554817061','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:41
+insert into user(createtime,ip) values ('1554817061','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:42
+insert into user(createtime,ip) values ('1554817062','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:42
+insert into user(createtime,ip) values ('1554817062','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:42
+insert into user(createtime,ip) values ('1554817062','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:42
+insert into user(createtime,ip) values ('1554817062','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:42
+insert into user(createtime,ip) values ('1554817062','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:43
+insert into user(createtime,ip) values ('1554817063','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:43
+insert into user(createtime,ip) values ('1554817063','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:43
+insert into user(createtime,ip) values ('1554817063','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:43
+insert into user(createtime,ip) values ('1554817063','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:43
+insert into user(createtime,ip) values ('1554817063','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:44
+insert into user(createtime,ip) values ('1554817064','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:44
+insert into user(createtime,ip) values ('1554817064','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:44
+insert into user(createtime,ip) values ('1554817064','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:44
+insert into user(createtime,ip) values ('1554817064','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:37:53
+insert into user(createtime,ip) values ('1554817073','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:38:09
+insert into user(createtime,ip) values ('1554817089','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:38:15
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:39:57
+select count(*) from user where name = '.'
+-------------------------
+
+-------------------------
+2019/04/09 13:39:57
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554817197','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:40:05
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:42:00
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:42:01
+insert into user(createtime,ip) values ('1554817321','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:42:03
+insert into user(createtime,ip) values ('1554817323','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:42:04
+insert into user(createtime,ip) values ('1554817324','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:42:04
+insert into user(createtime,ip) values ('1554817324','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:42:04
+insert into user(createtime,ip) values ('1554817324','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:42:05
+insert into user(createtime,ip) values ('1554817325','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:42:05
+insert into user(createtime,ip) values ('1554817325','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:42:05
+insert into user(createtime,ip) values ('1554817325','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:42:19
+insert into user(createtime,ip) values ('1554817339','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:42:19
+insert into user(createtime,ip) values ('1554817339','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:43:11
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:43:39
+select count(*) from cat where catname = '兴趣'
+-------------------------
+
+-------------------------
+2019/04/09 13:43:39
+insert into cat(catname) values('兴趣')
+-------------------------
+
+-------------------------
+2019/04/09 13:44:22
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:44:23
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:44:23
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:47:07
+select count(*) from cat where catname = '兴趣'
+-------------------------
+
+-------------------------
+2019/04/09 13:47:15
+select count(*) from cat where catname = '兴趣'
+-------------------------
+
+-------------------------
+2019/04/09 13:47:37
+select count(*) from cat where catname = '天道酬勤'
+-------------------------
+
+-------------------------
+2019/04/09 13:47:37
+insert into cat(catname) values('天道酬勤')
+-------------------------
+
+-------------------------
+2019/04/09 13:47:43
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:47:44
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:47:44
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:47:45
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:47:45
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:47:45
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:47:46
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:47:46
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/09 13:47:57
+insert into user(createtime,ip) values ('1554817677','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:51:05
+insert into user(createtime,ip) values ('1554817865','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:51:12
+insert into user(createtime,ip) values ('1554817872','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:51:14
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:51:27
+insert into user(createtime,ip) values ('1554817887','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:51:34
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:51:39
+insert into user(createtime,ip) values ('1554817899','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:51:44
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:52:28
+insert into user(createtime,ip) values ('1554817948','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:52:30
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:52:32
+insert into user(createtime,ip) values ('1554817952','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:52:44
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:55:51
+select count(*) from user where name = ''
+-------------------------
+
+-------------------------
+2019/04/09 13:56:15
+insert into user(name,password,email,createtime,ip) values ('','','','1554818175','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:56:43
+insert into user(name,password,email,createtime,ip) values ('','','','1554818203','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:56:53
+insert into user(name,password,email,createtime,ip) values ('','','','1554818213','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:56:54
+insert into user(createtime,ip) values ('1554818214','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:57:01
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554818221','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 13:57:03
+insert into user(createtime,ip) values ('1554818223','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:05:18
+insert into user(createtime,ip) values ('1554818718','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:05:19
+insert into user(createtime,ip) values ('1554818719','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:05:27
+select count(*) from user where name = wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:05:27
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554818727','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:07:37
+insert into user(createtime,ip) values ('1554818857','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:07:39
+select count(*) from user where name = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 14:07:39
+insert into user(name,password,email,createtime,ip) values ('','','','1554818859','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:08:23
+select count(*) from user where name = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 14:08:23
+insert into user(name,password,email,createtime,ip) values ('','','','1554818903','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:08:25
+insert into user(createtime,ip) values ('1554818905','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:08:26
+select count(*) from user where name = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 14:08:26
+insert into user(name,password,email,createtime,ip) values ('','','','1554818906','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:10:23
+select count(*) from user where name =
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 14:10:23
+insert into user(name,password,email,createtime,ip) values ('','','','1554819023','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:10:38
+insert into user(createtime,ip) values ('1554819038','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:10:49
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:10:49
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819049','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:14:53
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:14:53
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819293','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:15:24
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:15:24
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819324','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:15:36
+insert into user(createtime,ip) values ('1554819336','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:15:38
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:15:38
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819338','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:15:56
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:15:56
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819356','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:16:06
+insert into user(createtime,ip) values ('1554819366','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:17:17
+select count(*) from user where name =$data["name"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["name"]' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 14:17:17
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819437','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:17:22
+select count(*) from user where name =$data["name"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["name"]' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 14:17:22
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819442','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:17:24
+insert into user(createtime,ip) values ('1554819444','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:17:25
+select count(*) from user where name =$data["name"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["name"]' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 14:17:25
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819445','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:17:34
+select count(*) from user where name =$data["name"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["name"]' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 14:17:34
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819454','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:17:52
+select count(*) from user where name =$data["name"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["name"]' at line 1
+-------------------------
+
+-------------------------
+2019/04/09 14:17:52
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819472','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:18:26
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:18:26
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819506','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:18:56
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:18:56
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819536','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:20:42
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:20:42
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819642','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:20:52
+insert into user(createtime,ip) values ('1554819652','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:20:54
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:20:54
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819654','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:21:18
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:21:18
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819678','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:21:32
+select count(*) from user where name =wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:21:32
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819692','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:21:59
+select count(*) from user where name = wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:21:59
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819719','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:22:52
+select count(*) from user where name = wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:22:52
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819772','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:23:06
+select count(*) from user where name = wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:23:06
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819786','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:23:20
+select count(*) from user where name = wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:23:20
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819800','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:23:31
+select count(*) from user where name = wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:23:31
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819811','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:23:41
+select count(*) from user where name = wywang
+Unknown column 'wywang' in 'where clause'
+-------------------------
+
+-------------------------
+2019/04/09 14:23:41
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1554819821','0')
+Duplicate entry 'wywang' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:31:20
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 14:32:42
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 14:32:54
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 14:32:56
+insert into user(createtime,ip) values ('1554820376','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:32:58
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/09 14:33:00
+insert into user(createtime,ip) values ('1554820380','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:33:33
+select count(*) from user where name = 'wy'
+-------------------------
+
+-------------------------
+2019/04/09 14:33:35
+insert into user(createtime,ip) values ('1554820415','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:33:41
+select count(*) from user where name = 'wwy'
+-------------------------
+
+-------------------------
+2019/04/09 14:33:41
+insert into user(name,password,email,createtime,ip) values ('wwy','1234','15628760@qq.com','1554820421','0')
+-------------------------
+
+-------------------------
+2019/04/09 14:34:12
+insert into user(createtime,ip) values ('1554820452','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:34:17
+select count(*) from user where name = 'wwyr'
+-------------------------
+
+-------------------------
+2019/04/09 14:34:17
+insert into user(name,password,email,createtime,ip) values ('wwyr','1234','15628760@qq.com','1554820457','0')
+-------------------------
+
+-------------------------
+2019/04/09 14:46:23
+insert into user(createtime,ip) values ('1554821183','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:46:29
+insert into user(createtime,ip) values ('1554821189','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:46:44
+select count(*) from user where name = 'www'
+-------------------------
+
+-------------------------
+2019/04/09 14:46:44
+insert into user(name,password,email,createtime,ip) values ('www','1234','15628760@qq.com','1554821204','0')
+-------------------------
+
+-------------------------
+2019/04/09 14:46:47
+insert into user(createtime,ip) values ('1554821207','0')
+Duplicate entry '' for key 'name'
+-------------------------
+
+-------------------------
+2019/04/09 14:47:15
+insert into user(createtime,ip) values ('1554821235','0')
+Duplicate entry '' for key 'name'
+-------------------------
+

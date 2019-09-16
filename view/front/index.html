@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人博客</title>
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<link href="css/m.css" rel="stylesheet">
+		
+	</head>
+	<body>
+		<header class="header-navigation" id="header">
+		  <nav><div class="logo"><a href="index.php">个人博客</a></div>
+		    <h2 id="mnavh"><span class="navicon"></span></h2>
+		   <ul id="starlist">
+		      <li><a href="index.php">网站首页</a></li>
+		      <li><a href="pic.php">我的相册</a></li>
+		      <li><a href="list.php">我的日记</a></li>
+		      <li><a href="game.php">我的游戏</a></li>
+		    </ul>
+		</nav>
+		</header>
+		<article>
+		  <aside class="l_box">
+		      <div class="about_me">
+		        <h2>关于我</h2>
+		        <ul>
+		          <i><img src="images/4.jpg"></i>
+		          <p><b>六元的小虎牙</b>，我的爱豆叫刘昊然</p>
+		        </ul>
+		      </div>
+		      <div class="wdxc">
+		        <h2>我的相册</h2>
+		        <ul>
+		        	<?php foreach($pics as $k=>$v){?>
+		          	<li><a href="pic.php?pic_id=<?php echo $v['pic_id'];?>"><img src="<?php echo $v['suo'];?>"></a></li>
+		          	<?php }?>
+		        </ul>
+		      </div>
+		      <div class="fenlei">
+		        <h2>文章分类</h2>
+		        <ul>
+		          <?php foreach($cats as $k=>$v){?>
+		          <li><a href="index.php?cat_id=<?php echo $v['cat_id'];?>"><?php echo $v['catname'];?></a></li>
+		          <?php }?>
+		        </ul>
+		      </div>
+		      <div class="tuijian">
+		        <h2>博主推荐</h2>
+		        <ul>
+		          <?php foreach($arts as $k=>$v){?>
+		          <li><a href="art.php?art_id=<?php echo $v['art_id'];?>"><?php echo $v['title'];?></a></li>
+		          <?php }?>
+		        </ul>
+		      </div>
+		      <div class="links">
+		        <h2>友情链接</h2>
+		        <ul>
+		          <a href="https://www.zhihu.com/topic/20090895/intro">知乎简介</a> <a href="https://weibo.com/u/2870450862">刘昊然微博</a>
+		        </ul>
+		      </div>
+		  </aside>
+		  <main class="r_box">
+		  	<?php foreach($arts as $k=>$v){?>
+		    <li><i><a href="#"><img src="<?php echo $v['suo'];?>"></a></i>
+		      <h3><a href="art.php?art_id=<?php echo $v['art_id'];?>"><?php echo $v['title'];?></a></h3>
+		      <p><?php echo $v['content'];?></p>
+		    </li>
+		 	<?php }?>
+		 	<div class="pagelist">
+		 		<a class="allpage">
+                Pages:&nbsp;&nbsp;
+                <?php foreach($page as $k=>$v){?>
+                <?php if($curr == $k){
+                	echo $k;} else {?>
+                <a href="index.php?<?php echo $v;?>"><?php echo $k;?></a>
+                <?php }?>
+                <?php }?>
+                </a>
+            </div>
+		  </main>
+		  
+		</article>
+		<a href="#" class="cd-top">Top</a>
+		<footer>
+		  <p>Design by <a href="http://blog.com" target="_blank">六元的小虎牙个人博客</a> <a href="/">Copyright &copy; 2019 · HUAXIA · UNIVERSITY · WYWANG</a></p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,3018 @@
+-------------------------
+2019/04/23 10:11:32
+select count(*) from user where name='六元的小虎牙' and password='123456'
+-------------------------
+
+-------------------------
+2019/04/23 10:11:33
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 10:11:33
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/23 10:13:49
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 10:13:54
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 10:13:54
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/23 10:20:25
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 10:20:27
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 10:20:28
+select comment.*, title from comment left join art on comment.art_id=art.art_id
+-------------------------
+
+-------------------------
+2019/04/23 10:20:29
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 10:20:29
+select pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/23 10:20:32
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 10:20:32
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 10:20:32
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 10:20:32
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 10:20:38
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 10:20:38
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 10:20:39
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 10:20:39
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 10:20:39
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 10:20:39
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 10:20:40
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 10:20:40
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 10:20:40
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 10:20:40
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 12:06:47
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 12:06:47
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/23 12:06:50
+select comment.*, title from comment left join art on comment.art_id=art.art_id
+-------------------------
+
+-------------------------
+2019/04/23 12:11:25
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 12:11:25
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/23 12:11:59
+select count(*) from art where art_id='11'
+-------------------------
+
+-------------------------
+2019/04/23 12:11:59
+select * from art where art_id = 11
+-------------------------
+
+-------------------------
+2019/04/23 12:11:59
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 12:32:30
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 12:32:30
+select pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/23 12:32:32
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 12:54:16
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 12:54:16
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 12:54:16
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 12:54:16
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 12:54:48
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 12:54:48
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 12:55:30
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 12:55:30
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 12:55:30
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 12:55:30
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 12:55:34
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 12:55:34
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 12:55:36
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 12:55:36
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 12:55:36
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 12:55:36
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 12:55:37
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 12:55:37
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:01:39
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:01:39
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:01:41
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:01:41
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:01:41
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:01:41
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:01:51
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:01:51
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:01:51
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:01:51
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:01:58
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:01:58
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:01:58
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:04:00
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:04:00
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:04:00
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:04:00
+insert into comment(nick,email,content,art_id,pubtime,ip) values ('暖阳','123456@qq.com','风一样的少年','53','1556024640','2130706433')
+-------------------------
+
+-------------------------
+2019/04/23 13:04:00
+update art set comm=comm+1 where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:04:00
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:04:00
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:04:00
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:05:52
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:05:52
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:05:52
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:05:53
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:05:53
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:05:53
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:06:31
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:06:31
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:06:31
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:06:31
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:06:31
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:06:31
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:06:32
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:06:32
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:06:32
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:06:47
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:06:47
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:06:47
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:06:48
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:06:48
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:06:48
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:07:44
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:07:44
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:07:44
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:07:44
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:07:45
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:07:45
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:07:45
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:07:45
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:07:47
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:07:47
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:07:47
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:07:48
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:07:48
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:07:48
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:07:48
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:07:48
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:07:48
+select * from comment where art_id='53'
+-------------------------
+
+-------------------------
+2019/04/23 13:11:30
+select count(*) from user where name='六元的小虎牙' and password='123456'
+-------------------------
+
+-------------------------
+2019/04/23 13:11:30
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:11:30
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/23 13:11:43
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:11:43
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:11:43
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:11:43
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:11:47
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:11:47
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:12:28
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:12:28
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:12:36
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:12:36
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:12:36
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:12:36
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:12:38
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:12:38
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:15:19
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:15:19
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:16:25
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:16:25
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:19:11
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:19:11
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:19:11
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:19:11
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:19:13
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:19:13
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:31:00
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:31:00
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:31:00
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:31:00
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:31:01
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:31:01
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:31:01
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:31:01
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:31:06
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:31:06
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:31:28
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:31:28
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:31:28
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:31:28
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:31:29
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:31:29
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:31:29
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:31:29
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:31:36
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:31:36
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:34:43
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:34:43
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:34:43
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:34:43
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:34:44
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:34:44
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:37:42
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:37:42
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:37:42
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:37:42
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:39:13
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:39:13
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:47:36
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:47:36
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:47:36
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:47:36
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:48:01
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:48:01
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:48:01
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:48:01
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:48:09
+select count(*) from user where name='六元的小虎牙' and password='123456'
+-------------------------
+
+-------------------------
+2019/04/23 13:48:10
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:48:10
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/23 13:48:12
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:48:12
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:48:12
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:48:12
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:48:13
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:48:13
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:48:49
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:48:49
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:48:49
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:48:49
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:49:09
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:49:09
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:49:09
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:49:09
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:49:11
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:49:11
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:49:20
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:49:20
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:49:20
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:49:20
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:49:21
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:49:21
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:49:21
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:49:21
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:49:22
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:49:22
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:50:00
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:50:00
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:50:13
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:50:13
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:50:13
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:50:13
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:50:14
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:50:14
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:50:14
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:50:14
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:50:15
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 13:50:15
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 13:50:15
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:50:15
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 13:50:18
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:50:18
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:51:38
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:51:38
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:51:39
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:51:39
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:51:49
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:51:49
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:51:50
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:51:50
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:51:50
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:51:50
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:52:03
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:52:03
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:52:04
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:52:04
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:52:04
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:52:04
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:52:59
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:52:59
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:53:00
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:53:00
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:53:27
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:53:27
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 13:53:27
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 13:53:27
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:08:50
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:08:50
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:08:50
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:08:50
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:09:01
+select count(*) from user where name='六元的小虎牙' and password='123456'
+-------------------------
+
+-------------------------
+2019/04/23 14:09:01
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:09:01
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/23 14:09:03
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:09:03
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:09:03
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:09:03
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:09:05
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:09:05
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:09:05
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:09:05
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:09:07
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:09:07
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:15:05
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:15:05
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:15:06
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:15:06
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:15:41
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:15:41
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:19:22
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:19:22
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:19:23
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:19:23
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:19:28
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:19:28
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:19:32
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:19:32
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:19:50
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:19:50
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:19:50
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:19:50
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:19:51
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:19:51
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:20:36
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:20:36
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:22:11
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:22:11
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:22:11
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:22:11
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:22:20
+select count(*) from user where name='六元的小虎牙' and password='123456'
+-------------------------
+
+-------------------------
+2019/04/23 14:22:20
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:22:20
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/23 14:22:21
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:22:21
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:22:21
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:22:21
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:22:22
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:22:22
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:22:42
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:22:42
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:24:58
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:24:58
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:24:59
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:24:59
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:24:59
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:24:59
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:31:05
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:31:05
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:31:06
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:31:06
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:31:19
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:31:19
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:31:19
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:31:19
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:31:19
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:31:19
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:31:20
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:31:20
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:31:20
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:31:20
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:31:21
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:31:21
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:31:44
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:31:44
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,2
+-------------------------
+
+-------------------------
+2019/04/23 14:32:12
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:12
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/23 14:32:32
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:32
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/23 14:32:33
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:33
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/23 14:32:42
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:42
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/23 14:32:48
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:32:48
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:32:48
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:48
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:32:49
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:49
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/23 14:32:53
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:53
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 3,3
+-------------------------
+
+-------------------------
+2019/04/23 14:32:54
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:54
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/23 14:32:55
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:55
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 3,3
+-------------------------
+
+-------------------------
+2019/04/23 14:32:55
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:55
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/23 14:32:56
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:56
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 3,3
+-------------------------
+
+-------------------------
+2019/04/23 14:32:57
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:32:57
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/23 14:33:03
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:33:03
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 3,3
+-------------------------
+
+-------------------------
+2019/04/23 14:33:03
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:33:03
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,3
+-------------------------
+
+-------------------------
+2019/04/23 14:33:27
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:33:27
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,6
+-------------------------
+
+-------------------------
+2019/04/23 14:33:49
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:33:49
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:33:49
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:33:49
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:33:53
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:33:53
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,6
+-------------------------
+
+-------------------------
+2019/04/23 14:36:34
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:36:34
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:36:34
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:36:34
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:37:24
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:37:24
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:37:24
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/23 14:37:24
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:38:38
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:38:38
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:38:38
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/23 14:38:38
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:02
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:02
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:02
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:39:02
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:02
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:02
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:02
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:39:02
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:03
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:03
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:03
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/23 14:39:03
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:10
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:39:10
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,6
+-------------------------
+
+-------------------------
+2019/04/23 14:39:12
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:12
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:12
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:39:12
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:14
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:14
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:14
+select count(*) from art where art.cat_id = 26
+-------------------------
+
+-------------------------
+2019/04/23 14:39:14
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 26 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:24
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:24
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:24
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:39:24
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:27
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:27
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:27
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:39:27
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 5,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:51
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:51
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:51
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:39:52
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 5,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:53
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:53
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:53
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/23 14:39:53
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:54
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:54
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:54
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/23 14:39:54
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:55
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:55
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:55
+select count(*) from art where art.cat_id = 22
+-------------------------
+
+-------------------------
+2019/04/23 14:39:55
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 22 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:56
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:56
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:56
+select count(*) from art where art.cat_id = 19
+-------------------------
+
+-------------------------
+2019/04/23 14:39:56
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 19 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:57
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:57
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:57
+select count(*) from art where art.cat_id = 26
+-------------------------
+
+-------------------------
+2019/04/23 14:39:57
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 26 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:39:57
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:39:57
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:39:57
+select count(*) from art where art.cat_id = 23
+-------------------------
+
+-------------------------
+2019/04/23 14:39:57
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 23 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:40:07
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:40:07
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:40:07
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/23 14:40:07
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:40:08
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:40:08
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,6
+-------------------------
+
+-------------------------
+2019/04/23 14:40:09
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:40:09
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:40:09
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:40:09
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:41:02
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:41:02
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:41:02
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:41:02
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:05
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:05
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:05
+select count(*) from art where art.cat_id = 22
+-------------------------
+
+-------------------------
+2019/04/23 14:42:05
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 22 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:07
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:07
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:07
+select count(*) from art where art.cat_id = 19
+-------------------------
+
+-------------------------
+2019/04/23 14:42:07
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 19 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:08
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:08
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:08
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/23 14:42:08
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:09
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:09
+select art.*,suo,catname from art left join cat 
+ on art.cat_id=cat.cat_id where art_id='57'
+-------------------------
+
+-------------------------
+2019/04/23 14:42:09
+select * from comment where art_id='57'
+-------------------------
+
+-------------------------
+2019/04/23 14:42:17
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:17
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:17
+select count(*) from art where art.cat_id = 22
+-------------------------
+
+-------------------------
+2019/04/23 14:42:17
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 22 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:19
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:19
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:19
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/23 14:42:19
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:20
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:20
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:20
+select count(*) from art where art.cat_id = 19
+-------------------------
+
+-------------------------
+2019/04/23 14:42:20
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 19 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:20
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:20
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:20
+select count(*) from art where art.cat_id = 26
+-------------------------
+
+-------------------------
+2019/04/23 14:42:20
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 26 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:22
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:22
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:22
+select count(*) from art where art.cat_id = 23
+-------------------------
+
+-------------------------
+2019/04/23 14:42:22
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 23 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:24
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:24
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:24
+select count(*) from art where art.cat_id = 19
+-------------------------
+
+-------------------------
+2019/04/23 14:42:24
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 19 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:25
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:25
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:25
+select count(*) from art where art.cat_id = 26
+-------------------------
+
+-------------------------
+2019/04/23 14:42:25
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 26 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:27
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:27
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:27
+select count(*) from art where art.cat_id = 22
+-------------------------
+
+-------------------------
+2019/04/23 14:42:27
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 22 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:31
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:42:31
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,6
+-------------------------
+
+-------------------------
+2019/04/23 14:42:33
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:42:33
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,6
+-------------------------
+
+-------------------------
+2019/04/23 14:42:34
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:34
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:34
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:42:34
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:37
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:37
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:37
+select count(*) from art where art.cat_id = 23
+-------------------------
+
+-------------------------
+2019/04/23 14:42:37
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 23 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:41
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:41
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:41
+select count(*) from art where art.cat_id = 19
+-------------------------
+
+-------------------------
+2019/04/23 14:42:41
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 19 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:41
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:41
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:41
+select count(*) from art where art.cat_id = 22
+-------------------------
+
+-------------------------
+2019/04/23 14:42:41
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 22 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:42
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:42
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:42
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/23 14:42:42
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:43
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:43
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:43
+select count(*) from art where art.cat_id = 22
+-------------------------
+
+-------------------------
+2019/04/23 14:42:43
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 22 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:58
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:58
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:58
+select count(*) from art where art.cat_id = 25
+-------------------------
+
+-------------------------
+2019/04/23 14:42:58
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 25 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:42:59
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:42:59
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:42:59
+select count(*) from art where art.cat_id = 22
+-------------------------
+
+-------------------------
+2019/04/23 14:42:59
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 22 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:43:01
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:43:01
+select suo,pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,6
+-------------------------
+
+-------------------------
+2019/04/23 14:43:03
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:43:03
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:43:03
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:43:03
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:43:04
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:43:04
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:43:04
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:43:04
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:43:05
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:43:05
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:43:05
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/23 14:43:05
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id desc limit 0,5
+-------------------------
+
+-------------------------
+2019/04/23 14:43:07
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/23 14:43:07
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/23 14:43:07
+select count(*) from art where art.cat_id = 26
+-------------------------
+
+-------------------------
+2019/04/23 14:43:07
+select  suo,title,content,pubtime,catname,comm,art_id from art left join cat 
+ on art.cat_id=cat.cat_id where art.cat_id = 26 order 
+ by art_id desc limit 0,5
+-------------------------
+

@@ -1,0 +1,122 @@
+-------------------------
+2019/04/24 07:55:34
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/24 07:55:34
+insert into user(name,password,email,createtime,ip) values ('wywang','1234','15628760@qq.com','1556092534','2130706433')
+-------------------------
+
+-------------------------
+2019/04/24 07:55:59
+select count(*) from user where name = 'wywang'
+-------------------------
+
+-------------------------
+2019/04/24 07:56:14
+select count(*) from user where name = '哈哈'
+-------------------------
+
+-------------------------
+2019/04/24 08:14:39
+select * from cat
+-------------------------
+
+-------------------------
+2019/04/24 08:42:43
+select count(*) from user where name='六元的小虎牙' and password='123456'
+-------------------------
+
+-------------------------
+2019/04/24 08:42:43
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/24 08:42:43
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/24 08:42:45
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/24 08:42:45
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 10,10
+-------------------------
+
+-------------------------
+2019/04/24 08:42:46
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/24 08:42:46
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 20,10
+-------------------------
+
+-------------------------
+2019/04/24 08:42:48
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/24 08:42:48
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 40,10
+-------------------------
+
+-------------------------
+2019/04/24 08:42:49
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/04/24 08:42:49
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/24 08:56:15
+select comment.*, title from comment left join art on comment.art_id=art.art_id
+-------------------------
+
+-------------------------
+2019/04/24 09:25:02
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/24 09:25:02
+select pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/04/24 09:25:03
+select * from pic
+-------------------------
+
+-------------------------
+2019/04/24 09:26:12
+select count(*) from pic where 1
+-------------------------
+
+-------------------------
+2019/04/24 09:26:12
+select pic_id,pic_name,pic_int,road from pic where 1 order 
+ by pic_id asc limit 0,10
+-------------------------
+

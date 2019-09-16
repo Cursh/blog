@@ -1,0 +1,27 @@
+-------------------------
+2019/05/03 13:34:15
+select count(*) from user where name='wywang' and password='123456'
+-------------------------
+
+-------------------------
+2019/05/03 13:34:23
+select count(*) from user where name='六元的小虎牙' and password='123456'
+-------------------------
+
+-------------------------
+2019/05/03 13:34:23
+select count(*) from art where 1
+-------------------------
+
+-------------------------
+2019/05/03 13:34:23
+select art_id,title,pubtime,catname,comm from art left join cat 
+ on art.cat_id=cat.cat_id where 1 order 
+ by art_id asc limit 0,10
+-------------------------
+
+-------------------------
+2019/05/03 13:34:27
+select * from cat
+-------------------------
+
